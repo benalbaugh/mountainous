@@ -1,0 +1,49 @@
+body  {
+	font-family:  'Droid Sans',  sans-serif;
+}
+h1 {
+	font-size:  50px;
+}
+h2 {
+	font-size:  36px;
+	line-height:  1.4em;
+}
+
+/* Layout */
+
+.center {
+	display:  block;
+	margin:  0 auto;
+}
+#wrapper {
+	height: 100%; 
+}
+
+/* Intro */
+
+#intro  {
+	position:  relative;
+	z-index:  99;
+	width:  100%;
+	height: auto; 
+	overflow:  hidden;
+	background:  #66CCFF;
+	padding:  40px 0;
+}
+#intro canvas  {
+	position:  absolute;
+	top:  0;
+	left:  0;
+	display:  block;
+	z-index:  -999;
+}
+#cta  {
+	margin-top:  30px;
+}
+#header-text  {
+	z-index:  999;
+}
+#header-text h1  {
+	text-shadow:  1px 1px 1px #FFF;
+	margin-top: 25%; 
+}
