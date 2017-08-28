@@ -49,7 +49,7 @@
 	
 	//Set the cloud image
 	cloud = new Image();
-	cloud.src = '/img/cloud.png';
+	cloud.src = './img/cloud.png';
 	var aspect_ratio = .59; 
 	
 	//Create an array of clouds
